@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Foundation | Welcome</title>
+<title>Somat Engineering | Welcome</title>
 <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
 <link rel="stylesheet" href="css/app.css">
  <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
@@ -11,12 +11,19 @@
 </head>
 <body>
  
-
-<div class="top-bar">
+<div class="title-bar" data-responsive-toggle="topnav" data-hide-for="medium">
+  <div class="align-left"><img src="somat4.png" style="height: 40px; margin: 0px 0px 0px 6px; float: left;"></div>
+  <div style="margin: 10px 10px 0px 0px; float: right; ">
+  <button class="menu-icon" type="button" data-toggle></button>
+  </div>
+</div>
+<div data-responsive-toggle="logo" data-hide-for="medium">
+</div>
+<div class="top-bar" ID="topnav">
 <div class="row" style="max-width:1310px; margin-left: auto; margin-right: auto;">
-<div class="top-bar-left"><img src="somat4.png" style="height: 60px; margin: 11px 0px 0px 20px"></div>
+<div class="top-bar-left" ID="logo"><img src="somat4.png" style="height: 60px; margin: 11px 0px 0px 20px"></div>
 <div class="top-bar-right">
-<nav class="menu">
+<nav class="menu" >
   <ul class="inline-list" style="margin: 1.2rem 0 0 0rem;">
     <li><a href="#">About</a></li>
     <li><a href="#">Services</a></li>
@@ -47,7 +54,7 @@
 <div class="row column">
 <h3>Our Services</h3>
 </div>
-<div class="row">
+<div class="row" id="industries">
 <div class="medium-2 column">
 <img class="thumbnail3" src="images/truck2.png">
 <br/>
@@ -84,30 +91,90 @@
 <div class="industryName">Information Technology</div>
 </div>
 </div>
-<hr>
-<div class="row expanded">
-<div class="medium-6 columns">
-<ul class="menu">
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Projects</a></li>
-    <li><a href="#">Newsroom</a></li>
-    <li><a href="#">Careers</a></li>
-    <li><a href="#">Contact</a></li>
-
-</ul>
+<div data-responsive-toggle="industries" data-hide-for="small">
+<div class="row" >
+    <div class="small-6 column">
+      <img class="thumbnail3" src="images/truck2.png">
+      <br/>
+      <div class="industryName">Transportation</div>
+    </div>
+    <div class="small-6 column">
+      <img class="thumbnail3" src="images/geo2.png">
+      <br/>
+      <div class="industryName">Geotechnical</div>
+    </div>
 </div>
-<div class="medium-6 columns">
-<ul class="menu align-right">
-    <li><a href="#">Privacy Policy</a></li>
-    <li><a href="#">Terms of Use</a></li>
-<li class="menu-text">Somat Engineering © 2016 </li>
-
-</ul>
+<div class="row" >
+<div class="small-6 column">
+<img class="thumbnail3" src="images/water2.png">
+<br/>
+<div class="industryName">Water-Wastewater</div>
+</div>
+<div class="small-6 column">
+<img class="thumbnail3" src="images/structural2.png">
+<br/>
+<div class="industryName">Structural</div>
 </div>
 </div>
+<div class="row">
+<div class="small-6 column">
+<img class="thumbnail3" src="images/environment2.png">
+<br/>
+<div class="industryName">Environmental</div>
+</div>
+<div class="small-6 column">
+<img class="thumbnail3" src="images/construction2.png">
+<br/>
+<div class="industryName">Construction</div>
+</div>
+</div>
+<div class="row" >
+<div class="small-6 column end">
+<img class="thumbnail3" src="images/it2.png">
+<br/>
+<div class="industryName">Information Technology</div>
+</div>
+</div>
+</div>
 
-
+<footer class="footer">
+  <div class="row">
+    <div class="small-12 medium-6 large-5 columns">
+      <p class="logo"><img src="simplelogo.png"> Somat Engineering </p> 
+      <p class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Newsroom</a>
+        <a href="#">Careers</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </p>
+      <p class="copywrite">Somat Engineering © 2016 </p>
+    </div>
+    <div class="small-12 medium-6 large-4 columns">
+      <ul class="contact">
+        <li><p><i class="fi-marker"></i>    First National Building<br>
+                    660 Woodward Avenue<br>
+                    Suite 2430<br>
+                    Detroit, MI 48226<br>
+                    
+        <li><p><i class="fi-telephone"></i>(313) 963-2721</p></li>
+        <li><p><i class="fi-print"></i>(313) 963-2736</p></li>
+        <li><p><i class="fi-mail"></i>info@somateng.com</p></li>
+      </ul>
+    </div>
+    <div class="small-12 medium-12 large-3 columns">
+      <p class="about">About Somat Engineering </p>
+      <p class="about subheader">Quality-focused workmanship and integrity in client service since 1986</p>
+      <ul class="inline-list social">
+        <a href="#"><i class="fi-social-facebook"></i></a>
+        <a href="#"><i class="fi-social-twitter"></i></a>
+        <a href="#"><i class="fi-social-linkedin"></i></a>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
