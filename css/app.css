@@ -9,7 +9,119 @@
     text-shadow: 1px 1px 1px #000;
     padding: 1rem 0 0 1rem;
     margin: 0; }
+#cards {
+  background: rgba(2, 92, 150, 0.09); }
+#cards.container{
+  width: 100%;
+  max-width: none;
+  margin-left: auto;
+margin-right: auto;
+}
+#cards .large-4{
+  width: 33.33%;
+}
+.sectionLabel{
+        color: #025c96;
+      text-align: center;
+}
+.header.panel {
+  margin: 3rem auto;
+  /* border: 2px solid #025c96; */
+  background: #fff; 
+border-radius: 16px;
+height:390px;
+}
+  .header.panel p {
+    font: inherit;
+    padding: 1rem 2rem 2rem 2rem;
+    margin-top: -1.25rem; }
+    .header.panel p span {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 75%;
+      font-weight: bold; }
+ .header.panel .sign {
+padding: 20px 0px 0px 0px;
+}
 
+    .header.panel .sign h2 {
+      color: #025c96;
+      text-align: center;
+ }
+ .header.panel ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.header.panel li {
+padding-left: .5em;
+padding-right: .5em;
+border-bottom: 2px solid #eee;
+}
+.header.panel li.last{
+border-bottom: 0px solid #eee;
+}
+  .header.panel .time {
+width: 80px;
+height: 70px;
+padding: 0px;
+margin: 0px;
+display: inline-block;
+color: rgb(255, 255, 255);
+text-transform: uppercase;
+float: left;
+  }
+.header.panel .date{
+display: block;
+color: rgb(158, 158, 158);
+font-weight: 600;
+text-align: center;
+position: relative;
+font-size: 30px;
+line-height: 40px;
+}
+.header.panel .month{
+color: rgb(158, 158, 158);
+font-weight: 400;
+text-align: center;
+font-size: 16px;
+letter-spacing: 5px;
+display: block;
+}
+.header.panel .link{
+padding: 10px 5px 0px 100px;
+height: 70px;
+}
+ .header.panel.blist ul {
+list-style: none;
+padding: 0 5px 0px 40px;
+margin: 0;
+}
+.header.panel.blist li {
+padding: 10px 0px 10px 0px;
+border-bottom: none;
+display: inline-block;
+line-height: 1.1;
+}
+.header.panel.blist  li:before {    
+font-family: 'FontAwesome';
+content: '\f0da';
+margin: 0 5px 0 -15px;
+color: #8B2D24;
+font-size: 35px;
+vertical-align: middle;
+}
+.header.panel.blist .listitem{
+display: inline;
+margin: 11px 0px 35px 5px;
+padding-right: 120px;
+position: absolute;
+max-width: 450px;
+line-height: 25px;
+}
+.container{
+  padding:20px 0px;
+}
 .row {
   max-width: 1200px; }
 
@@ -534,7 +646,7 @@ body {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -1341,7 +1453,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Mada', sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
